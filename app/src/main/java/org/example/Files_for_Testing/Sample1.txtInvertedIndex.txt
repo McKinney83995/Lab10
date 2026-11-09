@@ -1,9 +1,8 @@
 Words	Indexes
 ----------------------------------------
- Size: 30
+ Size: 29
 Appears	60, 
 Book	14, 
-Can	20, 
 Critical	64, 
 Data	6, 
 Document	17, 

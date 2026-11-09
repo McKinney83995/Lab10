@@ -13,12 +13,13 @@ import java.util.List;
 
 public class App {
   // declare global hash set of generic words
-  static ArrayList<String> genericWords = new ArrayList<>(List.of("the","can", "and", "are", "but", "for", "into", "not", "such",
-      "that", "the", "their", "then", "there", "these", "they", "this", "was", "will", "with"));
+  static ArrayList<String> genericWords = new ArrayList<>(
+      List.of("The", "Can", "And", "Are", "But", "For", "Into", "Not", "Such",
+          "That", "Their", "Then", "There", "These", "They", "This", "Was", "Will", "With"));
 
-  public static void main(String[] filePath) { // accept file path as apart of args
+  public static void main(String[] filePth) { // accept file path as apart of args
 
-    //String[] filePath = { ("app\\src\\main\\java\\org\\example\\Files_for_Testing\\Sample4.txt") };
+    String[] filePath = { ("app\\src\\main\\java\\org\\example\\Files_for_Testing\\Sample4.txt") };
 
     if (filePath.length == 0) { // if no file paths are call as arguements
       return;
@@ -46,13 +47,14 @@ public class App {
 
             if (fileWords[n].isBlank())
               continue;
-            else if (isGenericWord(fileWords[n])) {
-              ++index;
-              continue;
-            }
 
             fileWords[n] = fileWords[n].toLowerCase();
             fileWords[n] = fileWords[n].substring(0, 1).toUpperCase() + fileWords[n].substring(1);
+            
+            if (isGenericWord(fileWords[n])) {
+              ++index;
+              continue;
+            }
 
             invertedFile.insert(fileWords[n], index);
             ++index;
