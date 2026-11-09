@@ -1,0 +1,5 @@
+An inverted file index is a data structure similar to the index of a book . 
+Given a document D, which can be viewed as an unordered, numbered list of words, 
+an inverted file index is an ordered list of words, L, such that, for each word w in L, 
+we store the indices of the places in D where w appears. These indexes are critical
+in the implementation of search engines.

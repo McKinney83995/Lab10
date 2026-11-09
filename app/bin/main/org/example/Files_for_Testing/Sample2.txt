@@ -1,0 +1,5 @@
+Data    structures     and     algorithms.
+
+
+An inverted    index    maps    words.
+Words   appear    frequently,   rarely,    or    never.
