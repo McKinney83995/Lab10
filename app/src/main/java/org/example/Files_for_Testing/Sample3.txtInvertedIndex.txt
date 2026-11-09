@@ -1,0 +1,17 @@
+Words	Indexes
+----------------------------------------
+ Size: 15
+"algorithms	6, 
+Algorithms!	5, 
+Build	10, 
+Data?	19, 
+Does	22, 14, 
+Engine	16, 
+High-quality	18, 3, 
+Said	9, 
+Search	17, 
+Search-engine	13, 0, 
+State-of-the-art	4, 
+Technology	1, 
+Uses	2, 
+Well-known	12, 

@@ -1,0 +1,13 @@
+Words	Indexes
+----------------------------------------
+ Size: 11
+Algorithms	3, 
+Appear	10, 
+Data	0, 
+Frequently	11, 
+Index	6, 
+Inverted	5, 
+Maps	7, 
+Never	14, 
+Rarely	12, 
+Structures	1, 

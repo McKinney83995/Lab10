@@ -13,7 +13,7 @@ import java.util.List;
 
 public class App {
   // declare global hash set of generic words
-  static ArrayList<String> genericWords = new ArrayList<>(List.of("the", "and", "are", "but", "for", "into", "not", "such",
+  static ArrayList<String> genericWords = new ArrayList<>(List.of("the","can", "and", "are", "but", "for", "into", "not", "such",
       "that", "the", "their", "then", "there", "these", "they", "this", "was", "will", "with"));
 
   public static void main(String[] filePath) { // accept file path as apart of args
@@ -24,7 +24,7 @@ public class App {
       return;
     }
 
-    String fileLine, splitValues = "[,\\.\\s\\n\\t]";
+    String fileLine, splitValues = "[,\\.\\?\\!\\s\\n\\t]";
     String[] fileWords;
     int index;
     InvertedFile invertedFile;
